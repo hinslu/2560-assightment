@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+ <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <script src="../js/funtion.js"></script>
+
+<title>All About GuangZhou City</title>
+</head>
+
+
+<body>
+
+<div class="container-fluid">
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded " >
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="../index.html">Guangzhou </a>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="history.html">History</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sightseeing.html">Sightseeing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="food.html">Food</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="smartpage.html">Smartpage</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+        Share all of the Guangzhou with you
+      </span>
+    </div>
+  </nav>
+  <div >
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Smartpage</li>
+      </ol>
+    </nav>
+  </div>
+  <div class="container">
+    <center><h1>Claculate your study time</h1>
+    <h2 id = "for"></h2></center>
+      <blockquote>
+        <h3>Your study time</h3>
+        <div id ="show"></div>
+        <div><h4>Your total study time is: <span id = "score">0</span> hour(s).</h4></div>
+      </blockquote>
+      <div class="container ">
+        <div class="row smartpage-top">
+          <div class="col-lg-4">
+            <h3>Monday</h3>
+            <table>
+              <tr onclick=select(this) id = "Mon2000"><td class = "free" >Monday INFSCI </td><td> 2020</td></tr>
+              <tr onclick=select(this) id = "Mon2020"><td class = "free" >Monday INFSCI </td><td> 2040</td></tr>
+              <tr onclick=select(this) id = "Mon2040"><td class = "free" >Monday INFSCI </td><td> 2060</td></tr>
+            </table>
+          </div>
+          <div class="col-lg-4">
+            <h3>Tuesday</h3>
+            <table>
+              <tr onclick=select(this) id = "TUE2000"><td class = "free" >Tuesday INFSCI </td><td> 2020</td></tr>
+              <tr onclick=select(this) id = "TUE2020"><td class = "free" >Tuesday INFSCI </td><td> 2040</td></tr>
+              <tr onclick=select(this) id = "TUE2040"><td class = "free" >Tuesday INFSCI </td><td> 2060</td></tr>
+            </table>
+          </div>
+          <div class="col-lg-4">
+            <h3>Wednesday</h3>
+            <table>
+              <tr onclick=select(this) id = "WED2000"><td class = "free" >Wednesday INFSCI</td><td>  2020</td></tr>
+              <tr onclick=select(this) id = "WED2020"><td class = "free" >Wednesday INFSCI</td><td>  2040</td></tr>
+              <tr onclick=select(this) id = "WED2040"><td class = "free" >Wednesday INFSCI</td><td>  2060</td></tr>
+            </table>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <h3>Thursday</h3>
+            <table>
+              <tr onclick=select(this) id = "THU2000"><td class = "free" >Thursday INFSCI</td><td>  2020</td></tr>
+              <tr onclick=select(this) id = "THU2020"><td class = "free" >Thursday INFSCI</td><td>  2040</td></tr>
+              <tr onclick=select(this) id = "THU2040"><td class = "free" >Thursday INFSCI</td><td>  2060</td></tr>
+            </table>
+          </div>
+          <div class="col-lg-3">
+            <h3>Friday</h3>
+            <table>
+              <tr onclick=select(this) id = "FRI2000"><td class = "free" >Friday INFSCI</td><td>  2020</td></tr>
+              <tr onclick=select(this) id = "FRI2020"><td class = "free" >Friday INFSCI</td><td>  2040</td></tr>
+              <tr onclick=select(this) id = "FRI2040"><td class = "free" >Friday INFSCI</td><td>  2060</td></tr>
+            </table>
+          </div>
+          <div class="col-lg-3">
+            <h3>Saturday</h3>
+            <table>
+              <tr onclick=select(this) id = "SAT2000"><td class = "free" >Saturday INFSCI</td><td>  2020</td></tr>
+              <tr onclick=select(this) id = "SAT2020"><td class = "free" >Saturday INFSCI</td><td>  2040</td></tr>
+              <tr onclick=select(this) id = "SAT2040"><td class = "free" >Saturday INFSCI</td><td>  2060</td></tr>
+            </table>
+          </div>
+          <div class="col-lg-3">
+            <h3>Sunday</h3>
+            <table>
+              <tr onclick=select(this) id = "SUN2000"><td class = "free" >Sunday INFSCI</td><td>  2020</td></tr>
+              <tr onclick=select(this) id = "SUN2020"><td class = "free" >Sunday INFSCI</td><td>  2040</td></tr>
+              <tr onclick=select(this) id = "SUN2040"><td class = "free" >Sunday INFSCI</td><td>  2060</td></tr>
+            </table>
+          </div>
+        </div>
+       </div>
+  <footer class="footer">
+    <details>
+    <summary>Copyright 2018.</summary>
+      <p>Posted by: Hins Lu</p>
+      <p>Contact information: <a href="mailto:ZIL50@pitt.edu">
+        ZIL50@pitt.edu</a>.</p>
+    </details>
+  </footer>
+</div>
+
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>

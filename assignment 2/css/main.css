@@ -1,0 +1,40 @@
+	.footer {
+			text-align: center;
+			padding-top: 20px;
+			padding-bottom: 20px;
+	}
+	.historycontent{
+		padding-top: 40px;
+	}
+	
+	.video{   
+		 position: relative;
+		 width: 100%;
+		 height: 0;
+		 padding-bottom: 56.25%;
+		 margin: 40px 0;
+		}   
+	.video iframe {   
+		 position: absolute;
+		 width: 100%;
+		 height: 100%;
+		 left: 0;
+		 top: 0;
+		}
+	.svg{
+		padding-top: 50px;
+		padding-bottom: 30px;
+		text-align: center;
+	}
+	.free{ 
+		color: black; 
+	}
+	.selected{ 
+		background-color: #DC143C;
+	}
+	.chosen {
+		color: #DC143C; font-size: 15pt; list-style-type: space-counter;
+	}
+	.smartpage-top{
+		padding-bottom: 10px;
+	}
